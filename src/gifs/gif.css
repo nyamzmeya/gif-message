@@ -1,0 +1,72 @@
+.ReactVirtualized__Masonry {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ReactVirtualized__Masonry::-webkit-scrollbar {
+  width: 10px;
+  background-color: #ffffff;
+}
+
+.ReactVirtualized__Masonry::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background-color: #DAE2EA;;
+  border-left: 5px white solid;
+}
+
+
+
+.card {
+  width: 640px;
+  margin: 4vh auto auto auto;
+  height: 80vh;
+}
+
+#bodyy {
+  padding: 10px 20px 10px 10px !important;
+}
+
+.gradient {
+  position: absolute;
+  left: 0.75rem;
+  top: 0.375rem;
+  background: linear-gradient(
+    135deg,
+    #2ee6a8 0%,
+    #3399ff 34.37%,
+    #9933ff 69.27%,
+    #ff3399 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+
+
+.gif {
+  cursor: pointer;
+}
+
+.gif:hover {
+  border: 0.5px solid rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+    drop-shadow(0px 13px 8px rgba(0, 0, 0, 0.12))
+    drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.2));
+  border-radius: 2px;
+}
+
+.card-footer {
+  background:#ffffff !important;
+}
+
+.ques {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}

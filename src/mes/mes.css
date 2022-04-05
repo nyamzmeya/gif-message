@@ -1,0 +1,88 @@
+.messages {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  height: 100%;
+}
+
+.messages > :first-child {
+  margin-top: auto !important;
+}
+
+.messages::-webkit-scrollbar {
+  width: 10px;
+  background-color: #ffffff;
+}
+
+.messages::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background-color: #dae2ea;
+}
+
+.mes {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.mes div:first-child {
+  align-self: flex-start;
+  padding: 13px 14px;
+  border-radius: 5px;
+  background-color: rgb(179, 218, 245);
+}
+
+.mes div:last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.time {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  color: #99a2ad;
+  align-self: flex-end;
+  margin-left: 8px;
+}
+
+input::placeholder {
+  font-weight: 400;
+  font-size: 13px;
+  color: #828282;
+}
+
+.example-enter {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+.example-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 300ms, transform 300ms;
+}
+.example-exit {
+  opacity: 1;
+  transform: translateX(0);
+}
+.example-exit-active {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.svg {
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+  align-self: flex-end;
+}
+
+.back {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 30px;
+  bottom: 7px;
+}
